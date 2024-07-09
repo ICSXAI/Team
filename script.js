@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     function updateAge() {
-      const birthday = new Date('1998-02-14T00:00:00Z'); // Your birthday in ISO format
+      const birthday = new Date('2024-07-01T00:00:00Z'); // Your birthday in ISO format
       const now = new Date();
       const ageInMilliseconds = now - birthday;
       const ageInSeconds = ageInMilliseconds / 1000;

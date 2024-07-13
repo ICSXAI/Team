@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
       h = ageInHours - ageInDays.toFixed(0)/24;
       document.getElementById('Hours').innerText = h.toFixed(0);
       s = ageInSeconds - ageInHours.toFixed(0)/3600;
-      document.getElementById('Hours').innerText = h.toFixed(0);
+      document.getElementById('Seconds').innerText = h.toFixed(0);
     
       // Display age in Years
       // document.getElementById('Seconds').innerText = ageInSeconds.toFixed(2); // Display age in seconds with three decimals for milliseconds

@@ -75,7 +75,7 @@ img {
   width: 300px;
 }
 a {
-  color: #1700ac;
+  color: #FFE66D;
 }
 a:hover {
   text-decoration: none;
@@ -142,7 +142,7 @@ h2 {
   background: rgba(1, 213, 65, 0.8);
 }
 
-content-wrap a {
+.content-wrap a {
   color: #2F3061;
 }
 

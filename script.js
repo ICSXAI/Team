@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const ageInHours = ageInSeconds / (60*60)
   
       document.getElementById('Days').innerText = ageInDays.toFixed(0);
-      h = ageInHours - ageInDays.toFixed(0)/24;
+      h = (ageInHours-Math.floor(ageInDays/24));
       document.getElementById('Hours').innerText = h.toFixed(0);
-      s = ageInSeconds - ageInHours.toFixed(0)/3600;
+      s = (ageInSeconds-Math.floor(ageInHours/3600));
       document.getElementById('Seconds').innerText = s.toFixed(0);
     
       // Display age in Years

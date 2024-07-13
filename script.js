@@ -8,8 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const ageInSeconds = ageInMilliseconds / 1000;
       const ageInYears = ageInSeconds / (60*60*24*365.25)
       const ageInDays = ageInSeconds / (60*60*24)
+      const ageInHours = ageInSeconds / (60*60)
   
-      document.getElementById('Days').innerText = ageInDays.toFixed(6); // Display age in Years
+      document.getElementById('Hours').innerText = ageInHours.toFixed(2); // Display age in Years
       // document.getElementById('Seconds').innerText = ageInSeconds.toFixed(2); // Display age in seconds with three decimals for milliseconds
       
     }

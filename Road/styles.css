@@ -79,6 +79,7 @@ a {
 }
 a:hover {
   text-decoration: none;
+  color: #03058c;
 }
 h1, h2 {
   font-family: 'Caveat', cursive;

@@ -36,6 +36,11 @@ body {
   text-align: center;
 }
 
+#logo {
+  position: fixed;
+  top: 10px; 
+  right: 10px;
+}
 
 .wrapper1 {
   display: grid;

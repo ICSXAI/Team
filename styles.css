@@ -38,10 +38,11 @@ body {
 
 #logo {
   position: fixed;
-  top: 10px; 
-  right: 100px;
+  top: 100px; 
+  right: 10px;
   width: 10%;
   height: 10%;
+  padding-top: 100px;
 }
 
 .wrapper1 {

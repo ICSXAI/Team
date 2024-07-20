@@ -94,13 +94,19 @@ h2 {
 }
 
 .img-wrap {
-  max-width: 160px;
-  padding: 25px, 20px, 25px, 20px;
+  max-width: 140px;
+  padding-top: 25px;
+  padding-right:20px;
+  padding-bottom:25px;
+  padding-left:20px;
 }
 
 .img-wrap-gray {
-  max-width: 140px;
-  padding: 20px, 20px, 30px, 20px;
+  max-width: 100px;
+  padding-top: 25px;
+  padding-right:20px;
+  padding-bottom:25px;
+  padding-left:20px;
   filter: grayscale(100%);
 }
 

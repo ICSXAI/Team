@@ -8,13 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const ageInSeconds = ageInMilliseconds / 1000;
       const ageInYears = ageInSeconds / (60*60*24*365.25)
       const ageInDays = ageInSeconds / (60*60*24)
-      const ageInHours = ageInSeconds / (60*60)
+      const ageInHours = (ageInSeconds / (60*60)) - (Math.floor(ageInDays) * 24)
+      const ageInSec = ageInSeconds - (Math.floor(ageInDays)*24*3600)
   
       document.getElementById('Days').innerText = ageInDays.toFixed(0);
-      h = (ageInHours-Math.floor(ageInDays/24));
-      document.getElementById('Hours').innerText = h.toFixed(0);
-      s = (ageInSeconds-Math.floor(ageInHours/3600));
-      document.getElementById('Seconds').innerText = s.toFixed(0);
+      document.getElementById('Hours').innerText = ageInHours.toFixed(0);
+      document.getElementById('Seconds').innerText = ageInSec.toFixed(0);
     
       // Display age in Years
       // document.getElementById('Seconds').innerText = ageInSeconds.toFixed(2); // Display age in seconds with three decimals for milliseconds

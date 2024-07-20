@@ -96,17 +96,17 @@ h2 {
 .img-wrap {
   max-width: 140px;
   padding-top: 25px;
-  padding-right:20px;
+  padding-right:12px;
   padding-bottom:25px;
-  padding-left:20px;
+  padding-left:12px;
 }
 
 .img-wrap-gray {
   max-width: 120px;
   padding-top: 25px;
-  padding-right:20px;
+  padding-right:13px;
   padding-bottom:25px;
-  padding-left:20px;
+  padding-left:13px;
   filter: grayscale(100%);
 }
 

@@ -36,33 +36,6 @@ body {
   text-align: center;
 }
 
-#logo {
-  position: fixed;
-  top: 20px; 
-  right: 10px;
-  padding-top: 20px;
-}
-
-#ScoreBoard {
-  position: fixed;
-  top: 20px; 
-  left: 10px;
-  padding-top: 20px;
-}
-
-#Statistics {
-  position: fixed;
-  bottom: 20px; 
-  left: 10px;
-  padding-bottom: 20px;
-}
-
-#AI_Prediction {
-  position: fixed;
-  bottom: 20px; 
-  right: 10px;
-  padding-bottom: 20px;
-}
 
 .wrapper1 {
   display: grid;
@@ -98,9 +71,8 @@ body {
   padding: 20px;
   font-size: 100%;
 }
-
 img {
-  width: 100px;
+  width: 300px;
 }
 a {
   color: #FFE66D;
@@ -157,8 +129,8 @@ h2 {
 }
 
 .content-wrap .btn_Pro {
-  background: #2F3061;
-  color: #F7FFF7;
+  background: #f7931a;
+  color: #000000;
   text-decoration: none;
   padding: 8px;
   border-radius: 7px;
@@ -167,8 +139,7 @@ h2 {
   margin: 5px 5px;
 }
 .content-wrap .btn_Pro:hover {
-  background: rgba(1, 44, 14, 0.8);
-  color: #060600;
+  background: rgba(1, 213, 65, 0.8);
 }
 
 content-wrap a {

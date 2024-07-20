@@ -37,15 +37,14 @@ body {
 }
 
 #logo {
-  display: none;
+  filter: grayscale();
   position: fixed;
   top: 20px; 
   right: 10px;
   padding-top: 20px;
 }
 
-#logo:hover + #logo {
-  display: block;
+#logo:hover {
   position: fixed;
   top: 20px; 
   right: 10px;

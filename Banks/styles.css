@@ -95,7 +95,13 @@ h2 {
 
 .img-wrap {
   max-width: 160px;
-  padding: 10px, 10px, 10px, 10px;
+  padding: 20px, 20px, 20px, 20px;
+}
+
+.img-wrap-gray {
+  max-width: 160px;
+  padding: 20px, 20px, 20px, 20px;
+  filter: grayscale(100%);
 }
 
 .content-wrap {

@@ -93,6 +93,11 @@ h2 {
   font-size: 45px;
 }
 
+.img-wrap {
+  max-width: 160px;
+  padding: 10px, 10px, 10px, 10px;
+}
+
 .content-wrap {
   max-width: 800px;
   width: 85%;

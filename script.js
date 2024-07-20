@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const ageInHour = (ageInSeconds / (60*60)) - (Math.floor(ageInDays) * 24)
       const ageInMin = (ageInSeconds / (60)) - (Math.floor(ageInHours) * 60)
-      const ageInSec = (ageInSeconds / (1)) - (Math.floor(ageInMinutes) * 60)
+      const ageInSec = (ageInSeconds) - (Math.floor(ageInMinutes) * 60)
   
       document.getElementById('Days').innerText = ageInDays.toFixed(0);
       document.getElementById('Hours').innerText = ageInHour.toFixed(0);

@@ -43,6 +43,13 @@ body {
   padding-top: 100px;
 }
 
+#ScoreBoard {
+  position: fixed;
+  top: 20px; 
+  left: 10px;
+  padding-top: 20px;
+}
+
 .wrapper1 {
   display: grid;
   grid-template-columns: 100%;

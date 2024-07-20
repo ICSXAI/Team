@@ -38,9 +38,9 @@ body {
 
 #logo {
   position: fixed;
-  top: 200px; 
+  top: 20px; 
   right: 10px;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 #ScoreBoard {
@@ -48,6 +48,20 @@ body {
   top: 20px; 
   left: 10px;
   padding-top: 20px;
+}
+
+#Statistics {
+  position: fixed;
+  bottom: 20px; 
+  left: 10px;
+  padding-bottom: 20px;
+}
+
+#AI_Prediction {
+  position: fixed;
+  bottom: 20px; 
+  right: 10px;
+  padding-bottom: 20px;
 }
 
 .wrapper1 {

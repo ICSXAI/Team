@@ -190,13 +190,13 @@ h2 {
   color: #F7FFF7;
   text-decoration: none;
   padding: 8px;
-  border-radius: 7px;
+  border-radius: 10px;
   display: inline-block;
-  padding: 5px 5px;
-  margin: 5px 5px;
+  padding: 10px 10px;
+  margin: 1px 18px;
 }
 .content-wrap .btn_Bro:hover {
-  background: rgba(3, 244, 75, 0.8);
+  background: rgba(7, 153, 51, 0.8);
   color: #fdfdfb;
 }
 

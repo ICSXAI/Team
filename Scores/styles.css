@@ -100,6 +100,11 @@ h2 {
   padding: 60px 0;
 }
 
+.preview {
+  width: 800px;
+  height: 1000px;
+} 
+
 .content-wrap .btn_Home {
   background: #15162d;
   color: #F7FFF7;
@@ -140,23 +145,6 @@ h2 {
 }
 .content-wrap .btn_Pro:hover {
   background: rgba(1, 213, 65, 0.8);
-}
-
-.content-wrap .btn_Bro {
-  background: rgb(0, 183, 255);
-  color: #F7FFF7;
-  text-decoration: none;
-  padding: 1px;
-  border-radius: 10px;
-  border-color: #15162d;
-  border-style:outset;
-  display: inline-block;
-  padding: 8px 8px;
-  margin: 3px 2px;
-}
-.content-wrap .btn_Bro:hover {
-  background: rgb(234, 234, 4);
-  color: #fdfdfb;
 }
 
 content-wrap a {
@@ -280,6 +268,12 @@ footer {
   .contact-list a {
     padding: 15px;
   }
+
+  .preview {
+    width: 800px;
+    height: 1000px;
+
+  } 
 }
 
 @media screen and (max-width: 749px) {
@@ -300,6 +294,12 @@ footer {
 	  width: 100px;
 	  height: 100px;
   }
+
+  .preview {
+    width: 480px;
+    height: 600px;
+  } 
+
 }
 
 @media screen and (max-width: 420px) {
@@ -320,5 +320,10 @@ footer {
     	font-size: 42px;
 		line-height: 1;
   }
+
+  .preview {
+    width: 300px;
+    height: 480px;
+  } 
 	
 }

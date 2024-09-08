@@ -186,7 +186,7 @@ h2 {
 }
 
 .content-wrap .btn_Bro {
-  background: #e11515;
+  background: rgb(0, 183, 255);
   color: #F7FFF7;
   text-decoration: none;
   padding: 1px;
@@ -196,7 +196,7 @@ h2 {
   margin: 2px 19px;
 }
 .content-wrap .btn_Bro:hover {
-  background: rgba(7, 153, 51, 0.8);
+  background: rgb(234, 234, 4);
   color: #fdfdfb;
 }
 

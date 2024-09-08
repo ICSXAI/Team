@@ -142,6 +142,23 @@ h2 {
   background: rgba(1, 213, 65, 0.8);
 }
 
+.content-wrap .btn_Bro {
+  background: rgb(0, 183, 255);
+  color: #F7FFF7;
+  text-decoration: none;
+  padding: 1px;
+  border-radius: 10px;
+  border-color: #15162d;
+  border-style:outset;
+  display: inline-block;
+  padding: 8px 8px;
+  margin: 3px 2px;
+}
+.content-wrap .btn_Bro:hover {
+  background: rgb(234, 234, 4);
+  color: #fdfdfb;
+}
+
 content-wrap a {
   color: #2F3061;
 }
